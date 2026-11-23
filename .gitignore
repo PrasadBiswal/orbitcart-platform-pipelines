@@ -1,0 +1,21 @@
+# Secrets / local env
+.env
+.env.*
+*.pem
+*.key
+
+# Terraform (in case pipelines are tested locally)
+*.tfstate
+*.tfstate.*
+.terraform/
+
+# Editors / OS
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+
+# Local test output
+*.log
+tmp/
